@@ -1,0 +1,288 @@
+/* Animation 1: Falling
+   Bolden falder konstant fra oven. */
+.falling {
+    animation-name: falling;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.bouncing {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.drop {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes drop {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+}
+
+.pattern {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes pattern {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.zoom out{
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes zoom out {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.zoom in {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes zoom in {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.fade out {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes fade out {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.fade in {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes fade in {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.rotation {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes rotation {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.rotation II {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes rotation II {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.glow {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes glow {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.blue to gray {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes blue to gray {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.pulse {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.overshoot {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes overshoot {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.bounce {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:unset
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
+
+.squash {
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8, end);
+}
+
+@keyframes squash {
+    0% {
+        transform: translate(0,-300%);
+    }
+
+    100% {
+        transform: translate(0,300%);
+    }
+    
+}
